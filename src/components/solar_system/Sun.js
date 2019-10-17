@@ -15,8 +15,7 @@ class Sun extends React.Component {
             <div className="sun" style={{
                 width: container_size,
                 height: container_size,
-                position: "absolute",
-                zIndex: 100
+                position: "absolute"
             }}>
                 <div className="sun-clickable" style={{ width: 2*r, height: 2*r, zIndex: 1000 }}>
                     <svg width={container_size} height={container_size}>

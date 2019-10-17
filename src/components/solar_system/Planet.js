@@ -50,9 +50,9 @@ class Planet extends React.Component {
         let { gin, store, data } = this.props;
         let { container_size, r, orbit_r, time_length, spin, orbit_id, system_id } = data;
         let planet_r = 8;
-        /*if (!orbit_r) {
+        if (!orbit_r) {
             planet_r = 0;
-        }*/
+        }
         return (
             <PlanetContainer container_size={container_size} spin={spin} time_length={time_length}>
                 <div className="clickable-container" onClick={() => this.openDialog()}>
